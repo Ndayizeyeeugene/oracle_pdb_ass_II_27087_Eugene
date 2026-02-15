@@ -1,0 +1,48 @@
+1. Introduction
+
+This report documents the configuration and administration of Oracle Multitenant Architecture. The tasks completed include creating
+a Pluggable Database (PDB), managing users, deleting a temporary PDB, and configuring Oracle Enterprise Manager (OEM).
+
+2. Task 1 – PDB Creation
+PDB Name:
+eu_pdb_27087
+
+User Created:
+eugene_plsqlauca_27087
+
+Summary:
+
+Successfully created the PDB.
+Opened the PDB in READ WRITE mode.
+Created a local user inside the PDB.
+Granted CONNECT and RESOURCE privileges.
+
+
+ 3. Task 2 – Temporary PDB Creation and Deletion
+Temporary PDB Name:
+eu_to_delete_pdb_27087
+
+Summary:
+
+Created temporary PDB.
+Verified existence using V$PDBS.
+Closed the PDB.
+Dropped PDB including datafiles.
+Verified deletion successfully.
+
+ 4. Task 3 – Oracle Enterprise Manager (OEM)
+Configuration:
+
+Configured HTTPS port.
+Accessed OEM via browser.
+Verified environment dashboard.
+Confirmed PDB and user visibility.
+
+
+ 5. Conclusion
+  All required tasks were successfully completed. The Oracle Multitenant 
+  architecture was configured correctly, and proper administrative
+  operations were performed,  including PDB management,
+  user creation, and OEM configuration.
+
+All required tasks were successfully completed. The Oracle Multitenant architecture was configured correctly, and proper administrative operations were performed, including PDB management, user creation, and OEM configuration.
